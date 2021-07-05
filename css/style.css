@@ -1,0 +1,122 @@
+.leaflet-tooltip-pane .text {
+  color: white; 
+  font-weight: bold;
+  background: transparent;
+  border:0;
+  box-shadow: none;
+  font-size: 0.9em;
+}
+
+.leaflet-control-container { position: absolute; right: 56px } 
+
+table#tblorganisasi.dataTable tbody td.Rawan > .sorting_1 {  
+  background: #d9534f;
+  color:white;
+}
+
+table#tblorganisasi.dataTable tbody td.Rawan {
+  background: #d9534f;
+  color:white;
+}
+
+table#tblorganisasi.dataTable tbody td.Sedang > .sorting_1 {
+  background-color: #f0ad4e;
+  color: white;
+}
+
+table#tblorganisasi.dataTable tbody td.Sedang {
+  background-color: #f0ad4e;
+  color: white;
+}
+table#tblorganisasi.dataTable tbody td.Aman > .sorting_1 {
+  background-color: #5cb85c;
+  color: white;
+}
+
+table#tblorganisasi.dataTable tbody td.Aman {
+  background-color: #5cb85c;
+  color: white;
+}
+
+
+.form-control {
+  height: 28px;
+}
+
+.lefthide{
+ left:290px;
+}
+.leftshow{
+  left:0;
+ }
+
+ .navbar-brand-center {
+  display: inline-block;
+  margin: 0 auto;
+  padding: 0;  
+}
+
+ td.details-control {
+  background: url('../img/details_open.png') no-repeat center center;
+  cursor: pointer;
+}
+tr.shown td.details-control {
+  background: url('../img/details_close.png') no-repeat center center;
+}
+
+.btn-link.btn-anchor {
+  outline: none !important;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+  color:white;
+}
+
+.labelKerawanan{
+  width:60px; 
+  display:block
+}
+
+.panel-default>.panel-heading {
+  background-color: #f5f5f5;
+  border-color: #ddd;
+  color: #777!important;
+}
+
+.panel-heading {
+  border-bottom: 1px solid transparent;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  padding: 1px 8px;
+}
+
+.panel .panel-heading a {
+  font-size: 1.15em;
+  line-height: 2em;
+}
+
+.panel .panel-heading a.collapsed:before {
+  content: "\f105";
+  position: relative;
+  
+}
+
+.panel .panel-heading a:before {
+  background: #6d7fcc;
+  color: #fff;
+  content: "\f107";
+  float: left;
+  font-family: "Font Awesome 5 Free";
+  font-size: 1.2em;
+  font-weight: 900;
+  margin: -1px 5px 0 -8px;
+  padding: 1px;
+  text-align: center;
+  width: 33px;
+}
+
+.spanNone{
+  margin-left: 25px;
+  margin-top:5px;
+}
+
